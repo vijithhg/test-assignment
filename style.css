@@ -1,0 +1,349 @@
+/*
+Author:ARCHANA P NAIR
+Date:28/12/2021
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.section1{
+	background-image: url("../img/academy-banner.jpg");
+	height:100vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+	position: relative;
+	
+}
+.section1 h1{
+	
+	color: #1e2531;
+	
+   font-size: 50px;
+   position: absolute;
+	top:55vh;
+	left:65vw;
+	
+}
+.section1 img{
+	position: absolute;
+	top:40vh;
+	right: 40px;
+
+	
+}
+.section2{
+	height: 100vh;
+	position: relative;
+	padding: 50px;
+}
+.section2 p{
+	color: #252525;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 30px;
+}
+.section2 div img{
+	
+	width: 50%;
+	height:70vh;
+
+	background-repeat: no-repeat;
+}
+.training {
+	background-color: #1e2531;
+	width: 50%;
+	height: 30vh;
+	position: absolute;
+	top: 20vh;
+	right: 10vh;
+	color:cyan;
+	font-size: 30px;
+	padding: 60px;
+    text-align: justify;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-content: center;
+
+}
+.training h3::before{
+	content:"{";
+	color: #f00;
+}
+.training h3::after{
+	content:"}";
+	color: #f00;
+}
+.section3{
+	background-image: url("../img/modulebg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.section3  h3{
+	border:solid 2px #000;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 10px;
+	width: 30vh;
+	height: 10vh;
+	margin: 20px;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    
+
+}
+
+.section4{
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.section4 p{
+	font-size: 25px;
+	text-align: center;
+	padding-top: 50px;
+}
+.section5{
+	display: flex;
+	}
+.section5 .img1{
+	background-image: url("../img/testsbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height: 60vh;
+}
+.section5 .img2{
+	background-image: url("../img/intrvwbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height: 60vh;
+}
+.inner{
+	background-color: rgba(6,8,11,0.7);
+	width: 100%;
+	height: 60vh;
+	text-align: center;
+	
+	color: #fff;
+	font-size: 25px;
+	
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+}
+.img1{
+	padding: 30px;
+}
+.img2{
+	padding: 30px;
+}
+
+.section6 {
+	width: 100%;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+	
+}
+.section6 a{
+	border:solid 2px #f26422;
+	width: 30vh;
+	height: 10vh;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+	color: #f26422;
+	font-size: 25px;
+
+}
+.section6 h2{
+	font-size: 40px;
+	padding-bottom: 30px;
+	color: #181e22;
+}
+
+.section7{
+	height: 40vh;
+	display: flex;
+	justify-content: space-around;
+	
+	align-items: center;
+	padding: 20px;
+	
+}
+.first{
+	text-align: center;
+	line-height: 4vh;
+}
+.first h3{
+	font-size: 30px;
+	padding: 10px;
+}
+.first p{
+	font-size: 20px;
+}
+.second{
+	text-align: center;
+}
+.second p{
+	font-size: 20px;
+}
+.second h3{
+	font-size: 30px;
+	padding: 10px;
+}
+.second div{
+	line-height: 4vh;
+}
+.foot{
+	padding: 20px;
+}
+
+
+/*media query*/
+@media only screen and (max-width: 576px)
+{
+
+	
+	.section1{
+	background-image:none;
+	background-color: gray;
+	position: relative;
+	height: 100vh;
+
+	
+
+}
+.section1 h1{
+	font-size: 40px;
+   position: absolute;
+	left: 30px;
+	
+}
+.section1 img{
+	position: absolute;
+	top:30vh;
+	left:50px;
+	width: 70vw;
+}
+.section2{
+	height: 155vh;
+	position: relative;
+	
+	
+}
+.section2 p{
+	
+	 
+	
+	font-size: 25px;
+	position: absolute;
+	left: 0;
+	top: 105vh;
+}
+.section2 div img{
+	height: 50vh;
+	width: 100%;
+	position: absolute;
+	top: 5vh;
+	left: 0;
+
+}
+.training {
+	
+	
+	height: 30vh;
+	position: absolute;
+	top: 58vh;
+	left: 0;
+	width: 67%;
+	font-size: 20px;
+	padding: 60px;
+   
+
+}
+.training h3{
+	text-align: left;
+
+}
+.section3{
+	height: 100vh;
+	width: 100vw;
+	}
+.section3  h3{
+	width: 20vh;
+	height: 10vh;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.section4{
+	width: 100vw;
+	height: auto;
+}
+.section4 p{
+	font-size: 25px;
+}
+.section5{
+	display: block;
+	width: 100vw;
+	
+}
+.section5 .img1{
+	
+	width: 84vw;
+	
+}
+.section5 .img2{
+	
+	width: 84vw;
+	
+}
+.inner{
+	background-color: rgba(6,8,11,0.7);
+	width: 85vw;
+	height: 60vh;
+	text-align: center;
+
+}
+.inner h4{
+	font-size: 25px;
+}
+.}
+
+.section6 h2{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 20px;
+}
+.section6 a{
+	width: 30vh;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+	font-size: 25px;
+}
+
+
+
+}
