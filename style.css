@@ -7,7 +7,7 @@ Date:28/12/2021
 	padding: 0;
 }
 .section1{
-	background-image: url("../img/academy-banner.jpg");
+	background-image: url("academy-banner.jpg");
 	height:100vh;
      background-repeat: no-repeat;
      background-size: cover;
@@ -75,7 +75,7 @@ Date:28/12/2021
 	color: #f00;
 }
 .section3{
-	background-image: url("../img/modulebg.jpg");
+	background-image: url("modulebg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
@@ -116,14 +116,14 @@ Date:28/12/2021
 	display: flex;
 	}
 .section5 .img1{
-	background-image: url("../img/testsbg.jpg");
+	background-image: url("testsbg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 50%;
 	height: 60vh;
 }
 .section5 .img2{
-	background-image: url("../img/intrvwbg.jpg");
+	background-image: url("intrvwbg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 50%;
